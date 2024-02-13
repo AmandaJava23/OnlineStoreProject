@@ -37,6 +37,7 @@ public class ShoppingCart {
     }
 
     @Override
-    public String toString() { return "Shopping Cart: " + shoppingCart;
+    public String toString() {
+        return "Shopping Cart: " + shoppingCart;
     }
 }

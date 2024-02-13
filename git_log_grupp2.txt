@@ -1,0 +1,48 @@
+Vi fick skapa ett nytt repo då jag (Amanda) hade råkat skapa en katalog i en katalog så att pom-filen och src inte 
+låg i root. Då kunde inte Jenkins hitta pom-filen.
+
+Här är loggen från git log innan vi flyttade allt till det nya repot.
+
+
+git log
+commit e4060a49c59844811c29eee61c9e9a02481346c5 (HEAD -> main, origin/main)
+Author: Amanda Vasilis <amavas0414@skola.goteborg.se>
+Date:   Sun Feb 11 19:31:36 2024 +0100
+
+    adding tests in the ShoppingCartTest
+
+commit de9413382eb4d7dee52de722272e3fd3a2aca9cc
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Sun Feb 11 14:47:40 2024 +0100
+
+    fixed code in the correct test class heeheeehh
+
+commit 2dfcd03ba4f4295c3cf95cf0d70a53f9adf21e82
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Sun Feb 11 14:40:30 2024 +0100
+
+    added some code to the test
+
+commit f79939e36146ed06f2f6cbaa92f15a44a87f828b
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Sun Feb 11 14:27:27 2024 +0100
+
+    added code to customer
+
+commit 7e2a0278eaa3a4b774cecfd1305c0dad24076320
+Author: Amanda Vasilis <amavas0414@skola.goteborg.se>
+Date:   Sun Feb 11 11:12:56 2024 +0100
+
+    adding constructor and methods in ShoppingCart
+
+commit 9858ea855a5e30331010e8caf18925e48505ba22
+Author: Amanda Vasilis <amavas0414@skola.goteborg.se>
+Date:   Sun Feb 11 11:08:19 2024 +0100
+
+    creating a Maven project
+
+commit f25c928a1e2b0a8a3ca59f882b82314e170a736c
+Author: Amanda Vasilis <amavas0414@skola.goteborg.se>
+Date:   Tue Feb 6 16:22:03 2024 +0100
+
+    testing if the repo is working
