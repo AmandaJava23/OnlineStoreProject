@@ -8,7 +8,7 @@ public class Main {
       //  cart.addProductToCart(product);
         customer.placeOrder(cart);
 
-        System.out.println(customer );
+        System.out.println(customer);
         System.out.println(cart);
 
     }

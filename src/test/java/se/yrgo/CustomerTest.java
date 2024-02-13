@@ -18,16 +18,16 @@ public class CustomerTest {
         assertEquals(0, customer.orderHistory.size());
         ShoppingCart cart = new ShoppingCart();
         customer.placeOrder(cart);
-        assertEquals(1,customer.orderHistory.size());
+        assertEquals(1, customer.orderHistory.size());
     }
 
     @Test
-    public void placeOrderTest(){
+    public void placeOrderTest() {
         Customer customer = new Customer(1,
                 "David", "david@david.com");
         ShoppingCart cart = new ShoppingCart();
         customer.placeOrder(cart);
-        assertEquals(1,customer.orderHistory.size());
-        assertThrows(IllegalArgumentException.class, ()-> customer.placeOrder(null));
+        assertEquals(1, customer.orderHistory.size());
+        assertThrows(IllegalArgumentException.class, () -> customer.placeOrder(null));
     }
 }
