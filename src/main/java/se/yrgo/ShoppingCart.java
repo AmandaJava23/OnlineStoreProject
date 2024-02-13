@@ -21,7 +21,7 @@ public class ShoppingCart {
     public double valueOfCart() {
         double valueOfCart = 0;
         for (Product product : shoppingCart) {
-            valueOfCart = valueOfCart + product.getValue();
+         //   valueOfCart = valueOfCart + product.getValue();
         }
         return valueOfCart;
     }
@@ -37,6 +37,7 @@ public class ShoppingCart {
     }
 
     @Override
-    public String toString() { return "Shopping Cart: " + shoppingCart;
+    public String toString() {
+        return "Shopping Cart: " + shoppingCart;
     }
 }
