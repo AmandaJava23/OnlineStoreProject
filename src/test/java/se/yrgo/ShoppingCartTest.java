@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class ShoppingCartTest {
 
     private ShoppingCart cart = new ShoppingCart();
-    private Product product1 = new Product();
-    private Product product2 = new Product();
+    private Product product1 = new Product("lax", "3", 140);
+    private Product product2 = new Product("lampa", "4", 100);
 
     @Test
     public void addProductTest() {
@@ -26,9 +26,8 @@ class ShoppingCartTest {
     public void totalValueTest() {
         cart.addProductToCart(product1);
         cart.addProductToCart(product2);
-        assertEquals(100, cart.valueOfCart());
-
-        // pris på produkterna?
+        assertEquals(240, cart.valueOfCart());
+        
     }
 
 }
