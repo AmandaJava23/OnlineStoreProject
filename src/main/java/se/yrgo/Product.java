@@ -22,4 +22,9 @@ public class Product {
     public double getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Product: %s%nProduct ID: %s%nPrice: %.2f%n",name,artNo,price);
+    }
 }

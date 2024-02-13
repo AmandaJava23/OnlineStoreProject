@@ -38,6 +38,6 @@ public class ShoppingCart {
 
     @Override
     public String toString() {
-        return "Shopping Cart: " + shoppingCart;
+        return String.format("Shopping Cart: %s%n" , shoppingCart);
     }
 }

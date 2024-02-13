@@ -34,7 +34,7 @@ public class Customer {
             return "No history to be shown";
         }
         return String.format("Order History: %nName: %s%nEmail: %s%n" +
-                "Items: %s&n",name,email,orderHistory);
+                "Items: %s%n",name,email,orderHistory);
     }
 
     /**
