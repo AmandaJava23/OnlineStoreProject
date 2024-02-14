@@ -18,7 +18,11 @@ public class ShoppingCart {
         shoppingCart.remove(product);
     }
 
-    public double valueOfCart() {
+    public double valueOfCart() throws NullPointerException{
+        if (shoppingCart == null ) {
+            throw new NullPointerException("Shoppingcart is empty!");
+        }
+
         double valueOfCart = 0;
         for (Product product : shoppingCart) {
             valueOfCart = valueOfCart + product.getPrice();
@@ -28,7 +32,7 @@ public class ShoppingCart {
 
     public void showShoppingCart() {
         for (Product product : shoppingCart) {
-            System.out.println(product);
+            System.out.println(product.getName() + ", Price: " + product.getPrice());
         }
     }
 

@@ -10,7 +10,9 @@ public class Main {
         cart.addProductToCart(product2);
         customer.placeOrder(cart);
         System.out.println(customer);
-        System.out.println(cart);
+        System.out.println("Shopping Cart:");
+        cart.showShoppingCart();
+        System.out.println();
         System.out.println(customer.orderHistory().replace("[","").replace("]",""));
         System.out.println("Total cost: " +cart.valueOfCart());
 

@@ -27,7 +27,11 @@ class ShoppingCartTest {
         cart.addProductToCart(product1);
         cart.addProductToCart(product2);
         assertEquals(240, cart.valueOfCart());
-        
+        cart = null;
+        assertThrows(NullPointerException.class, () -> {
+            cart.valueOfCart();
+        });
+
     }
 
 }
