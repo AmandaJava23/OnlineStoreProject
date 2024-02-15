@@ -2,7 +2,7 @@ Vi fick skapa ett nytt repo då jag (Amanda) hade råkat skapa en katalog i en k
 låg i root. Då kunde inte Jenkins hitta pom-filen.
 
 Här är loggen från git log innan vi flyttade allt till det nya repot.
-
+OBS: 5ail3 är Elias Sandegårds namn på github
 
 git log
 
