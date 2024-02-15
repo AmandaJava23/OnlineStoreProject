@@ -12,7 +12,7 @@ https://github.com/AmandaJava23/OnlineStoreProject.git
 
 3. Det föregående kommandot kommer att kompilera programmet, sätta upp mavenprojektet och ge dig en jar-fil
 
-4. Kör jar-filen med hjälp av kommandot "java -jar ./target/namnet_på_jar_filen"
+4. Kör jar-filen med hjälp av kommandot "java -jar ./target/OnlineStoreProject-1.0-SNAPSHOT.jar"
 
 
 
