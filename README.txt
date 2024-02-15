@@ -10,7 +10,7 @@ https://github.com/AmandaJava23/OnlineStoreProject.git
 
 2. Därefter får man öppna en terminal och ställa sig i den nya mappen som kommer ha namnet OnlineStoreProject och därefter köra "mvn package"
 
-3. Det föregående kommandot kommer ge dig en jar-fil
+3. Det föregående kommandot kommer att kompilera programmet, sätta upp mavenprojektet och ge dig en jar-fil
 
 4. Kör jar-filen med hjälp av kommandot "java -jar ./target/namnet_på_jar_filen"
 
