@@ -5,6 +5,50 @@ Här är loggen från git log innan vi flyttade allt till det nya repot.
 
 
 git log
+
+commit 918d780e0d60a2b964e9dcffc8f4c2e85114b414 (HEAD -> main, origin/main, origin/HEAD, tryingToFixTestEnviroment)
+Author: 5ail3 <saile.dragednas@proton.me>
+Date:   Tue Feb 13 14:34:59 2024 +0100
+
+    adding class Product
+
+commit 78a405f91c7728c70294c10d4def13521a8d791e
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Mon Feb 12 16:12:56 2024 +0100
+
+    added javadoc to customer
+
+commit 5d383790201b71d332e855f3528da762ee9c1209
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Mon Feb 12 15:53:30 2024 +0100
+
+    fixed exceptions to the class and test
+
+commit e4060a49c59844811c29eee61c9e9a02481346c5
+Author: Amanda Vasilis <amavas0414@skola.goteborg.se>
+Date:   Sun Feb 11 19:31:36 2024 +0100
+
+    adding tests in the ShoppingCartTest
+
+commit de9413382eb4d7dee52de722272e3fd3a2aca9cc
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Sun Feb 11 14:47:40 2024 +0100
+
+    fixed code in the correct test class heeheeehh
+
+commit 2dfcd03ba4f4295c3cf95cf0d70a53f9adf21e82
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Sun Feb 11 14:40:30 2024 +0100
+
+    added some code to the test
+
+commit f79939e36146ed06f2f6cbaa92f15a44a87f828b
+Author: David Henriksson <davhen0108@skola.goteborg.se>
+Date:   Sun Feb 11 14:27:27 2024 +0100
+
+    added code to customer
+
+
 commit e4060a49c59844811c29eee61c9e9a02481346c5 (HEAD -> main, origin/main)
 Author: Amanda Vasilis <amavas0414@skola.goteborg.se>
 Date:   Sun Feb 11 19:31:36 2024 +0100
