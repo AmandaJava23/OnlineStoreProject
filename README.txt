@@ -8,7 +8,7 @@ För att köra vårt program som är mavenbaserat krävs det:
 1. Att man hämtar ner och klonar vårt repo på git:
 https://github.com/AmandaJava23/OnlineStoreProject.git
 
-2. Därefter får man köra "mvn package" i en IDE som läser programmet och är kompatibel med Maven
+2. Därefter får man öppna en terminal och ställa sig i den nya mappen som kommer ha namnet OnlineStoreProject och därefter köra "mvn package"
 
 3. Det föregående kommandot kommer ge dig en jar-fil
 
