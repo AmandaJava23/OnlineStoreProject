@@ -24,10 +24,16 @@ public class ProductTest {
         assertEquals(140.00, axe.getPrice());
     }
     @Test
-    public void constructorShouldThrowIllegalArgumentException() {
+    public void constructorShouldThrowIllegalArgumentExceptionIfNameIsNull() {
         assertThrows(IllegalArgumentException.class, () -> {
            new Product(null , "T12312", 140);
         }, "Name cannot be null"); // Detta är ett meddelande som visas om testet misslyckas
+    }
+    @Test
+    public void constructorShouldThrowIllegalArgumentExceptionIfArtNoIsNull() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Product("ProductTest", null, 140.00);
+        }, "ArtNo can't be null");
     }
     @Test
     public void constructorShouldThrowIllegalArgumentExceptionForNegativePrice() {
