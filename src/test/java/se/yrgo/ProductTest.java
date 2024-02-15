@@ -23,4 +23,11 @@ public class ProductTest {
         Product axe = new Product("axe", "SA234325", 140.00);
         assertEquals(140.00, axe.getPrice());
     }
+
+    @Test
+    public void constructorShouldThrowIllegalArgumentExceptionForNegativePrice() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            new Product("TestProduct", "TP123", -100.00);
+        }, "Price cannot be negative"); // Detta är ett meddelande som visas om testet misslyckas
+    }
 }
