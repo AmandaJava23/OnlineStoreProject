@@ -1,5 +1,30 @@
 Git-log för vårt nyskapade repo
 
+commit c35855a19947359271e83a476fa6552c12c89370 (HEAD -> main, origin/main, origin/HEAD)
+Author: EliasSan <saile.dragednas@proton.me>                                            
+Date:   Thu Feb 15 12:04:39 2024 +0100                                                  
+                                                                                        
+    adding constructorShouldThrowIllegalArgumentExceptionIfArtNoIsNull test             
+                                                                                        
+commit 9eab7060d5c99dc83335ca3f529dd8e71d561cbf                                         
+Author: EliasSan <saile.dragednas@proton.me>                                            
+Date:   Thu Feb 15 12:00:48 2024 +0100                                                  
+                                                                                        
+    adding constructorShouldThrowIllegalArgumentException test                          
+                                                                                        
+commit 87fb523c753b509b90b79fbc0acb2fbcc0ad7e75                                         
+Author: EliasSan <saile.dragednas@proton.me>                                            
+Date:   Thu Feb 15 11:57:17 2024 +0100                                                  
+                                                                                        
+    adding method constructorShouldThrowIllegalArgumentExceptionForNegativePrice()      
+
+commit 7b12f1ad0e014cb26a880ba96f6aabc320390fb2
+Author: EliasSan <saile.dragednas@proton.me>
+Date:   Thu Feb 15 11:41:55 2024 +0100
+
+    adding exception handeling to Product class
+
+
 commit 3755daf9e1c2ca1a59d08cfc94047b37e230f621 (HEAD -> main, origin/main, origin/HEAD)
 Author: EliasSan <saile.dragednas@proton.me>
 Date:   Thu Feb 15 09:51:01 2024 +0100
